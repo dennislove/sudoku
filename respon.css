@@ -1,0 +1,15 @@
+@media (min-width: 867px) and (max-width: 1231px) {
+    .on-tablet{
+        position: absolute;
+        top: 133px;
+        right:40%;
+        left: 40%;
+        background-color:rgb(185, 181, 181)3;
+        height: 30px;
+        border-radius: 5px;
+    }
+}
+
+@media (min-width: 1023px) and (max-width: 1239px){
+
+}

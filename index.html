@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sư Đố Kừ</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./main.js"></script>
+</head>
+<header>
+    <h1>SưĐốKừ</h1>
+    <div id="setup-game">
+        <div id="level">
+            <h3>Chọn Cấp Độ: </h3>
+            <label><input id="level-1" type="radio" name="level" value="easy" checked >Dễ Vãi Nồi</label>
+            <label><input id="level-2" type="radio" name="level" value="medium" >Tạm Chấp Nhận</label>
+            <label><input id="level-3" type="radio" name="level" value="hard" >Khó Vãi Linh Hồn</label>
+            <label><input id="level-4" type="radio" name="level" value="veryhard" >Thách Đấu</label>
+        </div>
+    
+    <div id="time">
+        <h3>Thời gian sinh tồn: </h3>
+        <label><input id="time-1" type="radio" name="time" value="3m" checked >3m</label>
+        <label><input id="time-2" type="radio" name="time" value="5m" checked >5m</label>
+        <label><input id="time-3" type="radio" name="time" value="10m" checked >10m</label>
+    </div>
+    
+    <div id="theme">
+        <h3>Hệ người chơi: </h3>
+        <label><input id="theme-1" type="radio" name="theme" value="light" checked >Da Trén</label>
+        <label><input id="theme-2" type="radio" name="theme" value="dark" >Da Đen</label>
+    </div>
+</div>
+    <button id="start-btn" class="on-tablet">Mở Game Mới Đê</button>
+    </header>
+    <body>
+        <div id="starts">
+            <p id="timer"></p>
+            <p id="lives"></p>
+        </div>
+        <div id="game">
+            <div id="board"></div>
+            <div id="number-container" class="hidden">
+                <p id="one">1</p>
+                <p id="two">2</p>
+                <p id="threee">3</p>
+                <p id="four">4</p>
+                <p id="five">5</p>
+                <p id="six">6</p>
+                <p id="seven">7</p>
+                <p id="eight">8</p>
+                <p id="nine">9</p>
+
+            </div>
+        </div>
+</body>
+</html>
